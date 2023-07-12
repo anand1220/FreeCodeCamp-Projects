@@ -1,0 +1,51 @@
+<html lan="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form
+    </title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking this survey to help us improving our services</p>
+    <form id="survey-form">
+        <div id="group-form">
+            <label id="name-label" for="name">Name: </label>
+            <input id="name" type="text" placeholder="Enter your name"/>
+        </div>   
+        <div id="group-form">
+            <label id="email-label" for="email">Email: </label>
+            <input id="email" type="email" placeholder="Enter your Email"/>
+        </div>
+        <div id="group-form">
+            <label id="number-label" for="number">Age: </label>
+            <input id="number" type="number" min="13" max="120" placeholder="Age"/>
+        </div>
+        <div id="group-form">
+        <p>What is your profession-</p>
+        <select>
+            <option value="">-- select --</option>
+            <option value="1">Student</option>
+            <option value="2">Teacher</option>
+            <option value="3">Other</option>
+        </select>
+        </div>
+        <div id="group-form">
+        <p>What is your height- </p>
+        <input type="radio" name="height"/> Above 5 feet
+        <input type="radio" name="height"/> 5 feet
+        <input type="radio" name="height"/> Below 5 feet
+        </div>
+        <div id="group-form">
+          <p>Suggestions- </p>
+          <textarea></textarea>
+        </div>
+        <div id="group-form">
+          <button id="submit">Submit
+          </button>
+        </div>
+        
+
+    </form>
+  </body>
+</html>
