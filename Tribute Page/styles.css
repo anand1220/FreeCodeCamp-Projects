@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure proper box sizing */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use a preferred font for the body text */
+    line-height: 1.6; /* Improved readability with better line height */
+    background-color: #f0f0f0; /* Add a background color to the body */
+}
+
+/* heading */
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Add some space above the heading */
+}
+
+/* image */
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #fff; /* Add a white border around the image for better contrast */
+    border-radius: 10px; /* Add some border radius to soften the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a 3D effect */
+}
+
+#img-div {
+    text-align: center;
+    margin-top: 20px; /* Add some space between the image and the heading */
+}
+
+#img-caption {
+    display: block;
+    margin-top: 10px; /* Add some space between the image and the caption */
+    font-style: italic; /* Make the caption italic for better differentiation */
+    color: #777; /* Use a slightly muted color for the caption */
+}
+
+/* tribute text / info and link */
+#tribute-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Add a white background for better readability */
+    border-radius: 10px; /* Add some border radius to the info box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a 3D effect */
+    line-height: 1.8; /* Improved readability with better line height */
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px; /* Add some space between the info box and the link */
+    text-decoration: none;
+    color: #007bff; /* Use a primary color for the link */
+}
+
+#tribute-link:hover {
+    text-decoration: underline; /* Add underline on hover for better visual feedback */
+}
+
+/* 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+#image
+{
+    display: block;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div
+{
+    text-align: center;
+}
+
+#img-caption{
+    display:block;
+}
+
+*/
