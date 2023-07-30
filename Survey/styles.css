@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/cool-background.png);
+    background: contain;
+}
+
+
+/*  header / title */
+
+#title
+{
+    display: flex;
+    
+    height: 3em;
+    background-color: rgba(255, 255, 255, 0.187);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding:10px 0;
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, 0.098);
+    
+}
+
+/* description */
+
+#description
+{
+    text-align: center;
+    margin: 2em 0;
+    color:rgb(41, 41, 122);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+/* form */
+
+#survey-form
+{   width: auto;
+    height: auto;
+    max-width: 400px;
+    /* min-width: 200px; */
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 19px;
+    background-color: rgba(209, 224, 240, 0.237);
+    margin: auto;
+    backdrop-filter:blur(3px);
+    border: 2px solid rgba(255, 255, 255, 0.043);
+    padding-top: 23px;
+    
+    
+}
+
+
+#group-form
+
+{
+
+   width: auto;
+   height: auto;
+   min-width: 300px;
+   min-height: 3em;
+   align-items: center;
+   padding: auto;
+   margin: auto;
+}
+
+ input, select, textarea, button
+{
+    background-color: rgba(110, 128, 180, 0.363);
+    border-radius: 2px;
+    border-color: rgb(251, 246, 246);
+    border-style:hidden;
+    border: 1px solid rgba(16, 16, 75, 0.849);
+    
+}
+
+#submit {
+    margin: 12px 40%;
+}
+
+#name, #number, #email, select
+{
+    width:auto;
+    min-width: 200px;
+    height: auto;
+    min-height: 21px;
+    text-align: center;
+    font-style: oblique;
+
+}
+
+#number
+{
+    position: relative;
+    left:11px;
+}
+
+.label
+{
+   padding: 6px 0;
+}

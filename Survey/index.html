@@ -2,8 +2,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form
-    </title>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1 id="title">Survey Form</h1>
@@ -22,7 +22,7 @@
             <input id="number" type="number" min="13" max="120" placeholder="Age"/>
         </div>
         <div id="group-form">
-        <p>What is your profession-</p>
+        <p class="label">What is your profession-</p>
         <select>
             <option value="">-- select --</option>
             <option value="1">Student</option>
@@ -31,14 +31,14 @@
         </select>
         </div>
         <div id="group-form">
-        <p>What is your height- </p>
-        <input type="radio" name="height"/> Above 5 feet
-        <input type="radio" name="height"/> 5 feet
-        <input type="radio" name="height"/> Below 5 feet
+        <p class="label" >What is your height- </p> 
+        <input class="radio" type="radio" name="height"/> Above 5 feet
+        <input class="radio" type="radio" name="height"/> 5 feet
+        <input class="radio" type="radio" name="height"/> Below 5 feet
         </div>
         <div id="group-form">
-          <p>Suggestions- </p>
-          <textarea></textarea>
+          <p class="label">Suggestions- </p>
+          <textarea cols="32" rows="3"></textarea>
         </div>
         <div id="group-form">
           <button id="submit">Submit
